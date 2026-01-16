@@ -22,9 +22,9 @@ if st.button("Calcular IMC"):
         # Interpretación del IMC
         if imc < 18.5:
             st.write("**Bajo peso**")
-        elif 18.5 <= imc < 24.9:
+        elif 18.5 <= imc < 25:
             st.write("**Peso normal**")
-        elif 25 <= imc < 29.9:
+        elif 25 <= imc < 30:
             st.write("**Sobrepeso**")
         else:
             st.write("**Obesidad**")
