@@ -11,7 +11,7 @@ Ingresa tu peso y altura para obtener tu IMC.
 
 # Inputs del usuario
 peso = st.number_input("Ingresa tu peso (en kg):", min_value=0.0, format="%.2f")
-altura = st.number_input("Ingresa tu altura (en metros):", min_value=0.0, format="%.2f")
+altura = st.number_input("Ingresa tu altura (medida en metros):", min_value=0.0, format="%.2f")
 
 # Calcular el IMC
 if st.button("Calcular IMC"):
